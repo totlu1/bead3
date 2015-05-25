@@ -17,12 +17,13 @@ class SKOCKA : public ALAP
 {
 protected:
 int x,y,sx,sy,r,g,b;
+string szam;
 public:
 bool kattintas,kival1,kival2;
-char szam;
+
 int vmi;
 SKOCKA();
-SKOCKA(int _x,int _y,int _sx,int _sy);
+SKOCKA(int _x,int _y,int _sx,int _sy, string _szam);
 virtual void rajzolas();
      virtual void viselkedes(int &x0, int &y0, event ev);
 bool kivalasztas (int x0, int y0)const;
