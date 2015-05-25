@@ -9,7 +9,7 @@
 #include "skocka.hpp"
 
 SKOCKA::SKOCKA() {}
-SKOCKA::SKOCKA(int _x, int _y, int _sx, int _sy) : x(_x),y(_y),sx(_sx),sy(_sy)
+SKOCKA::SKOCKA(int _x, int _y, int _sx, int _sy,string _szam) : x(_x),y(_y),sx(_sx),sy(_sy),szam(_szam)
 {
     kattintas=false;
     r=48;
