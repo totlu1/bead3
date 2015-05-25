@@ -27,6 +27,7 @@ char szam;
 int x0, y0, kival;
 event ev;
 vector<ALAP*>a;
+vector<vector<string> >s;
 
 
 sodoku();
