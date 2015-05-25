@@ -1,0 +1,37 @@
+#include "graphics.hpp"
+#include <cstdlib>
+#include <ctime>
+#include <sstream>
+#include <iostream>
+#include <fstream>
+#include <vector>
+#include <sstream>
+#include "alap.hpp"
+#include "skocka.hpp"
+#include "sodoku.hpp"
+//#include "gomb.hpp"
+//#include <function>
+
+
+using namespace std;
+using namespace genv;
+
+
+
+
+
+
+
+
+int main()
+{
+
+
+ sodoku s (10,10,600,600);
+
+
+s.viselkedes();
+
+
+    return 0;
+}
