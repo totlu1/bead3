@@ -15,13 +15,13 @@ using namespace genv;
 class ALAP
 {
 protected:
-int x,y,sx,sy,r,g,b,skalamax, skalamin;
+int x,y,sx,sy,r,g,b, skalamin;
 
 public:
 
     ALAP();
     ALAP(int _x, int _y, int _sx, int _sy, int _r, int _g, int _b);
-     ALAP(int _x, int _y, int _sx, int _sy, int _r, int _g, int _b, int _skalamin, int _skalamax);
+     ALAP(int _x, int _y, int _sx, int _sy, int _r, int _g, int _b, int _skalamin);
 
 
 virtual void rajzolas();
