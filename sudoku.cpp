@@ -226,6 +226,27 @@ sodoku::sodoku(int _x, int _y, int _sx, int _sy):x(_x),y(_y),sx(_sx),sy(_sy)
     a.push_back(i9);
 
 }
+
+void sodoku::beolvasas()
+{
+int j=0;
+string elem=" ";
+ifstream f("sudoku.txt");
+if (f.is_open())
+{
+while (j!=9)
+        {
+            for(int i=0;i<9;i++)
+            {
+                getline(f,elem,' ');
+                s[j][i]=elem;
+
+            }
+            j=j+1;
+        }
+}
+
+}
 void sodoku::rajzolas()
 
 {
@@ -288,11 +309,7 @@ void sodoku::viselkedes()
 }
 
 }
-void sodoku::beolvasas()
-{
 
-
-}
 
 bool sodoku::kivalasztas(int x0, int y0)const
 {
